@@ -1,7 +1,7 @@
 # Run Spice
 Spice Runner Extension for Visual Studio Code
 
-![Spice Runner Logo](images/spice-runner-logo.png)
+![Spice Runner Logo](src/RunSpiceLogo.png)
 
 The Spice Runner extension for Visual Studio Code provides a convenient way to execute SPICE programs directly from the editor. It is designed to ease the process of running SPICE simulations without the need to remember complex command-line invocations. Whether you are a seasoned SPICE user or a beginner exploring circuit simulations, Spice Runner streamlines your workflow and enhances productivity.
 
