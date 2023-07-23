@@ -1,0 +1,6 @@
+{
+    "displayName": "Run Spice",
+    "description": "This extension helps you to run the current spice code (*.cir file) with a single button, and code highlighting",
+    "config.path": "Path and filename of the ngspice executable, e.g. `C:\\Program Files\\Spice64\\bin\\ngspice.exe` (Windows).",
+    "command.run": "Run SPICE Code"
+}
