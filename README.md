@@ -6,7 +6,6 @@ This extensio will help you to run the spice programs easily, and will give nice
 
 Coming Sooon...
 
-
 ## Extension Settings
 
-
+* `run-spice.path`: Path and filename of the ngspice executable, e.g. `C:\\Program Files\\Spice64\\bin\\ngspice.exe` (Windows).
