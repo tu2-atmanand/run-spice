@@ -6,3 +6,8 @@ node_modules
 
 Tokens.md
 MyReadme.md
+.vscode/
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json

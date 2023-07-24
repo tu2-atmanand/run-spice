@@ -7,6 +7,6 @@ R1 bat 0 1K
 
 .control
     run
-    wrdata C:\\Users\\alexa\\bat.csv V(bat)
+    wrdata ./out/
     quit
 .endc
