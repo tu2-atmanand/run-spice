@@ -4,7 +4,7 @@
   "description": "%description%",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kolod/run-spice.git"
+    "url": "https://github.com/tu2-atmanand/run-spice"
   },
   "author": {
     "name": "Atmanand Gauns",

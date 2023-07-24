@@ -6,7 +6,7 @@ import * as child_process from 'child_process';
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
-
+	
 	// Use the console to output diagnostic information (console.log) and errors (console.error)
 	// This line of code will only be executed once when your extension is activated
 	console.log('Congratulations, your extension "run-spice" is now active!');
@@ -38,6 +38,13 @@ export function activate(context: vscode.ExtensionContext) {
 		const config = vscode.workspace.getConfiguration('run-spice');
 		const ngspicePath = config.get<string>("path", "ngspice");
 		const command = `${ngspicePath} ${document.uri.fsPath}`;
+
+		// Create a new terminal
+		const terminal = vscode.window.createTerminal();
+		terminal.show();
+
+		// Run the command in the terminal
+		terminal.sendText(command);
 
 		// Run spice
 		child_process.exec(command, (error, stdout, stderr) => {
