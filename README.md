@@ -1,9 +1,9 @@
 # Run Spice
-Spice Runner Extension for Visual Studio Code
+Spice code Runner Extension for Visual Studio Code
 
 ![Spice Runner Logo](src/RunSpiceLogo.png)
 
-The Spice Runner extension for Visual Studio Code provides a convenient way to execute SPICE programs directly from the editor. It is designed to ease the process of running SPICE simulations without the need to remember complex command-line invocations. Whether you are a seasoned SPICE user or a beginner exploring circuit simulations, Spice Runner streamlines your workflow and enhances productivity.
+The Run Spice extension for Visual Studio Code provides a convenient way to execute SPICE programs directly from the editor. It is designed to ease the process of running SPICE simulations without the need to remember complex command-line invocations. Whether you are a seasoned SPICE user or a beginner exploring circuit simulations, Spice Runner streamlines your workflow and enhances productivity. It provides an button at the bottom right corner in the status bar and also an option in the right-click menu for easy access.
 
 ## Features
 
@@ -58,6 +58,11 @@ To use Spice Runner on Windows, make sure you have downloaded the SPICE executab
 
 6. Save the settings to apply the changes.
 
+
+## TODO
+1. Auto Lint and formating the code.
+2. Can download the ngspice itself, if its not installed properly for both windows and linux.
+3. Proper code highlighting and code tooltip for most of the command Spice builtin functions and modules.
 
 ## Known Issues
 
