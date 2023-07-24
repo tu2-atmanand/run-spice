@@ -1,0 +1,12 @@
+Test
+
+V1 bat 0 DC=0 PWL(0 0 0.9 0 1 12 2 12 2.1 0 3 0)
+R1 bat 0 1K
+
+.tran 10m 3
+
+.control
+    run
+    wrdata C:\\Users\\alexa\\bat.csv V(bat)
+    quit
+.endc
